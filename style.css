@@ -23,27 +23,30 @@ h2 {
     position: relative;
 }
 
-@media screen {
+.content {
+    top: -40px;
 }
 
 .stroke {
     height: 330px;
-    width: 97.4%;
+    width: 277px;
     transform: rotate(-5deg);
     background-image: url("assets/icecream.png");
+    background-repeat: no-repeat;
     overflow: clip;
+    align-items: center;
 }
-
 .outer-stroke {
-    padding-left: 35px;
+    padding-left: 83px;
+    display: flex;
+    justify-content: center;
+}
+a {
+    font-weight: bold;
+    color: #a57f46;
 }
 
 footer {
     padding-top: 60px;
     text-align: center;
-}
-
-a {
-    font-weight: bold;
-    color: #a57f46;
 }
