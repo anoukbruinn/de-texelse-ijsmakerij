@@ -33,16 +33,10 @@ h2 {
 }
 
 .stroke {
-    height: 330px;
-    width: 277px;
     transform: rotate(-5deg);
-    background-image: url("assets/icecream.png");
-    background-repeat: no-repeat;
-    overflow: clip;
     align-items: center;
 }
 .outer-stroke {
-    padding-left: 83px;
     display: flex;
     justify-content: center;
 }
