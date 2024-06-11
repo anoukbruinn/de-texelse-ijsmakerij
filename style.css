@@ -1,3 +1,8 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
 .logo_header {
     width: 140px;
     height: auto;
@@ -44,6 +49,7 @@ h2 {
 a {
     font-weight: bold;
     color: #a57f46;
+    pointer-events: none;
 }
 
 footer {
