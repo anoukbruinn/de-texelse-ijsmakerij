@@ -25,7 +25,6 @@ h2 {
 .inner-content {
     font-size: 20px;
     text-align: center;
-    position: relative;
 }
 
 .content {
@@ -43,7 +42,6 @@ h2 {
 a {
     font-weight: bold;
     color: #a57f46;
-    pointer-events: none;
 }
 
 footer {
